@@ -1,0 +1,10 @@
+@import "../../main/variables";
+
+footer.footer{
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 0 25px;
+  background-color: #fff;
+  @include box-shadow(0.1)
+}
